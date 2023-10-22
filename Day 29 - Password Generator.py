@@ -16,7 +16,7 @@ window.config(bg="white", padx=50, pady=50)
 # Adding a canvas
 canvas = Canvas(width=200, height=200, bg="white", highlightthickness=0)
 canvas.grid(row=0, column=1)
-img = PhotoImage(file="images/logo.png")
+img = PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=img)
 
 
